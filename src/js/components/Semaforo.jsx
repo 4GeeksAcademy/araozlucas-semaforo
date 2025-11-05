@@ -7,12 +7,13 @@ const Semaforo = () => {
     const alternateColor = () => {
         
         if (color === "red") {
-            setColor ("amarillo")
+            setColor ("yellow")
         }
-        else if (color === "amarillo") {
-            setColor ("verde")
+        else if (color === "yellow") {
+            setColor ("green")
         };
     };
+    
 
     return (
         <div className="text-center mt-5">
